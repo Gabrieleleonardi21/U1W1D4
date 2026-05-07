@@ -132,7 +132,8 @@ h3 {
     background-color: rgb(178, 176, 176);
 }
 
-.backdoor:first-of-type h3::after {
+
+.backdoor h3::after{
     content: "NEW";
     display: inline-block;
     padding: 2px 8px;
