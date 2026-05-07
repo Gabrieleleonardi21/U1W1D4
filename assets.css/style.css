@@ -35,7 +35,7 @@ main section h2 ::before ::content {
 #site-header {
     padding: 60px 20px 40px;
     border-bottom: 4px greenyellow;
-
+    min-height: 520px;
 }
 
 #site-header h1 {
