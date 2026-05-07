@@ -35,7 +35,7 @@ main section h2 ::before ::content {
 #site-header {
     padding: 60px 20px 40px;
     border-bottom: 4px greenyellow;
-   
+
 }
 
 #site-header h1 {
@@ -51,7 +51,7 @@ nav {
 nav ul li {
     display: inline-block;
     padding: 8px 16px;
-    margin:0 4px ;
+    margin: 0 4px;
     border-radius: 4px;
     border: 4px;
 
@@ -59,7 +59,8 @@ nav ul li {
 
 nav li :hover {
     background-color: rgb(6, 255, 6);
-    border: 48px;
+    border: 124px;
+    border-radius: 10%;
 }
 
 table {
@@ -122,7 +123,7 @@ h3 {
 .headtext {
     background-image: url(header-bg.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center ;
     background-color: #050505
 }
 
@@ -137,7 +138,7 @@ h3 {
 }
 
 
-.backdoor h3::after{
+.backdoor h3::after {
     content: "NEW";
     display: inline-block;
     padding: 2px 8px;
@@ -197,7 +198,7 @@ select {
     width: auto;
 }
 
-main section h2::before{
+main section h2::before {
     content: "- ";
     color: yellowgreen;
 }
@@ -248,6 +249,6 @@ select:focus {
     clear: both;
 }
 
-li a{
+li a {
     text-decoration: none;
 }
