@@ -247,3 +247,7 @@ select:focus {
 #competenze {
     clear: both;
 }
+
+li a{
+    text-decoration: none;
+}
