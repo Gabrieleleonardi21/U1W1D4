@@ -35,7 +35,7 @@ main section h2 ::before ::content {
 #site-header {
     padding: 60px 20px 40px;
     border-bottom: 4px greenyellow;
-    min-height: 560px;
+   
 }
 
 #site-header h1 {
@@ -44,10 +44,14 @@ main section h2 ::before ::content {
 
 
 
+nav {
+    text-align: center;
+}
+
 nav ul li {
     display: inline-block;
     padding: 8px 16px;
-    margin: 0 4px;
+    margin:0 4px ;
     border-radius: 4px;
     border: 4px;
 
@@ -116,7 +120,7 @@ h3 {
 }
 
 .headtext {
-    background-image: url(/assets.css/header-bg.jpg);
+    background-image: url(header-bg.jpg);
     background-size: cover;
     background-position: center;
     background-color: #050505
