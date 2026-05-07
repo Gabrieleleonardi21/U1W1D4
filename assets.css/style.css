@@ -252,3 +252,7 @@ select:focus {
 li a {
     text-decoration: none;
 }
+
+h1{
+    padding: 24px;
+}
