@@ -7,7 +7,10 @@
 body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    background-color: rgb(255, 251, 251)
 }
 
 main {
@@ -39,22 +42,22 @@ main section h2 ::before ::content {
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-#site-heder nav a {
+
+
+nav ul li {
     display: inline-block;
     padding: 8px 16px;
     margin: 0 4px;
     border-radius: 4px;
+    border: 4px;
 
 }
 
-nav ul li {
-     display: inline-block;
-    padding: 8px 16px;
-    margin: 0 4px;
-    border-radius: 4px;
-    border: 4px ;
-
+nav li :hover {
+    background-color: rgb(6, 255, 6);
+    border: 48px;
 }
+
 table {
     border-collapse: collapse;
     width: 50%;
@@ -71,11 +74,7 @@ th {
     background-color: #1c1b1b00;
 }
 
-.navig a:hover {
-    color: #272ad6;
-    border: 2rem;
 
-}
 
 
 .titolo {
@@ -133,8 +132,20 @@ h3 {
     background-color: rgb(178, 176, 176);
 }
 
+.backdoor:first-of-type h3::after {
+    content: "NEW";
+    display: inline-block;
+    padding: 2px 8px;
+    margin-left: 12px;
+    background-color: green;
+    color: #ffffff;
+    border-radius: 3px;
+    font-size: 0.75rem;
+}
+
 .backdoor {
     background-color: rgb(248, 239, 227);
+
 }
 
 .bottom {
@@ -144,15 +155,15 @@ h3 {
     width: 30%;
 }
 
-button {
+.button {
     padding: 12px 24px;
     border: none;
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-button :hover {
-    box-shadow: 0 4px 8px rgba(244, 241, 241, 0.935);
+button:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.935);
 }
 
 .chiusura {
@@ -179,6 +190,11 @@ select {
 
 #consenso {
     width: auto;
+}
+
+main section h2::before{
+    content: "- ";
+    color: yellowgreen;
 }
 
 form input::placeholder,
@@ -213,11 +229,12 @@ select:focus {
     margin: 0 24px 12px 0;
     float: inline-start;
 }
-#chi-sono p:first-of-type::first-letter{
+
+#chi-sono p:first-of-type::first-letter {
     font-size: 3rem;
     font-weight: bold;
-    float:left ;
-    margin-right:  6px; 
+    float: left;
+    margin-right: 6px;
     color: green;
 
 }
